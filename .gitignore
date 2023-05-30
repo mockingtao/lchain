@@ -1,0 +1,20 @@
+apikey.py
+__pycache__/
+
+# mac
+.DS_Store
+
+# Environments
+.direnv/
+.env
+.venv
+env/
+venv*/
+ENV/
+env.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+
+
