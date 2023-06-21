@@ -1,0 +1,36 @@
+
+{
+	"cardid": "0000001",
+	"properties":
+		{
+			"chartType": "PIE",
+			"row": [{"name": "品类"}],
+			"filters": [{
+				"name": "日期",
+				"filterType": "BT",
+				"filterValue": ["2023-06-13", "2023-06-20"]
+			}],
+			"metric": [{"name": "销量", "aggrType": "SUM"}],
+			"explanation": "该图展示了近7天各品类销量占比情况。",
+			"title": "近7天各品类销量占比",
+			"description": "该图展示了近7天各品类销量占比情况。"
+		}
+},
+
+{
+	"cardid": "0000002",
+	"properties":
+		{
+			"chartType": "PIE",
+			"row": [{"name": "品类"}],
+			"filters": [{
+				"name": "日期",
+				"filterType": "BT",
+				"filterValue": ["2023-06-13", "2023-06-20"]
+			}],
+			"metric": [{"name": "会员数量", "aggrType": "SUM"}],
+			"explanation": "该图展示了近7天各品类会员数量占比情况。",
+			"title": "近7天各品类会员占比",
+			"description": "该图展示了近7天各品类会员占比情况。"
+		}
+}
