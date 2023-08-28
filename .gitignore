@@ -17,5 +17,9 @@ env.bak/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# data
+.pkl
+.bin
+
 
 
